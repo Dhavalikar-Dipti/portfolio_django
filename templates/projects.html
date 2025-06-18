@@ -1,0 +1,68 @@
+{% extends 'base.html' %}
+{% block title %}Projects{% endblock %}
+
+{% block content %}
+<h2 class="text-center mb-4">My Projects</h2>
+
+<div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="col">
+    <div class="card h-100">
+      <div class="card-body">
+        <h5 class="card-title">SmartCaptioner</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Python | CLIP | Django | Kodular</h6>
+        <p class="card-text">
+          Developed an image captioning system using OpenAI’s CLIP model on a custom dataset. Integrated with Django and a Kodular Android frontend to generate five relevant captions per image.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card h-100">
+      <div class="card-body">
+        <h5 class="card-title">Smoke and Gas Detection</h5>
+        <h6 class="card-subtitle mb-2 text-muted">IoT | Arduino Uno</h6>
+        <p class="card-text">
+          Created a system with Arduino Uno and MQ2 sensor to monitor and alert hazardous smoke/gas levels in real-time environments.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card h-100">
+      <div class="card-body">
+        <h5 class="card-title">Mumbai Airport Passenger Analysis</h5>
+        <h6 class="card-subtitle mb-2 text-muted">MySQL | SQL Queries | Power BI</h6>
+        <p class="card-text">
+          Built and analyzed a dummy dataset of passengers from Mumbai Airport using SQL and visualized key insights through Power BI dashboards.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card h-100">
+      <div class="card-body">
+        <h5 class="card-title">Meri Mati Mera Desh</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Data Preprocessing</h6>
+        <p class="card-text">
+          Processed image data for the national project recognized by Guinness World Records, supporting the compilation and validation phase.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card h-100">
+      <div class="card-body">
+        <h5 class="card-title">Patent Forecasting Model</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Python | Time Series | Jupyter</h6>
+        <p class="card-text">
+          Forecasted future trends in patent applications using SARIMA, aiding decision-making and strategic planning in IP forecasting.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,72 @@
+{% extends 'base.html' %}
+{% block title %}About{% endblock %}
+{% load static %}
+
+{% block content %}
+<div class="container mt-5">
+  <h2 class="text-center mb-4">About Me</h2>
+
+  <div class="row mb-5">
+    <div class="col-md-4 text-center">
+      <img src="{% static 'profile.png' %}" alt="Profile Photo" class="rounded-circle img-fluid mb-3 shadow" style="max-width: 200px;">
+      <h4>Dipti Dattatraya Dhavalikar</h4>
+      <p><i class="fas fa-envelope"></i> diptidhavalikar10@gmail.com</p>
+      <div>
+      </div>
+    </div>
+
+    <div class="col-md-8">
+      <h5>Education</h5>
+      <ul class="list-group mb-4">
+        <li class="list-group-item">
+          <strong>B.Sc Data Science</strong> - Department of Technology, SPPU<br>
+          9.60 CGPA | 2022 – 2025 | Pune, India
+        </li>
+        <li class="list-group-item">
+          <strong>12th ISC</strong> - Spicer Higher Secondary School<br>
+          90.2% | 2021 – 2022 | Pune, India
+        </li>
+        <li class="list-group-item">
+          <strong>10th ICSE</strong> - Spicer Higher Secondary School<br>
+          91.83% | 2019 – 2020 | Pune, India
+        </li>
+      </ul>
+
+    </div>
+  </div>
+
+  <h5 class="mb-3">Technical Skills</h5>
+  <div class="row">
+    <div class="col-md-6">
+      <ul class="list-group mb-3">
+        <li class="list-group-item">Python (NumPy, Pandas, Seaborn, scikit-learn)</li>
+        <li class="list-group-item">Machine Learning: Classification, Regression, Clustering</li>
+        <li class="list-group-item">Data Analysis: ETL, SQL, NoSQL, Power BI</li>
+      </ul>
+    </div>
+    <div class="col-md-6">
+      <ul class="list-group mb-3">
+        <li class="list-group-item">Tools: Jupyter, PyCharm, VS Code, MySQL, Excel</li>
+        <li class="list-group-item">Web Dev (Basic): Django, Bootstrap</li>
+        <li class="list-group-item">Soft Skills: Communication, Teamwork, Problem-solving</li>
+      </ul>
+    </div>
+  </div>
+
+  <h5 class="mt-4">Courses & Certifications</h5>
+  <ul class="list-group">
+    <li class="list-group-item">Basics Of Python – Infosys Springboard (July 2023)</li>
+    <li class="list-group-item">Intro to Data Science – Infosys Springboard (Aug 2024)</li>
+    <li class="list-group-item">Intro to Machine Learning – NPTEL (July–Sept 2023)</li>
+    <li class="list-group-item">Data Analysis – LinkedIn & Microsoft (May 2024)</li>
+    <li class="list-group-item">MS Excel – Simplilearn (Jan 2025)</li>
+    <li class="list-group-item">Deep Learning for NLP – NPTEL (Jan–Apr 2025)</li>
+  </ul>
+
+  <h5 class="mt-4">Extracurricular</h5>
+  <ul class="list-group mb-5">
+    <li class="list-group-item">Meri Mati Mera Desh – Data support (Nov 2023)</li>
+    <li class="list-group-item">Organizing Committee – Tantra 2024</li>
+  </ul>
+</div>
+{% endblock %}
