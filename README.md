@@ -19,7 +19,7 @@ A personal portfolio website built using **Django** and **Bootstrap 5**. It show
 
 ---
 
-## 🛠️ Built With
+## Built With
 
 - **Django 4+**
 - **HTML5, CSS3**
@@ -31,21 +31,21 @@ A personal portfolio website built using **Django** and **Bootstrap 5**. It show
 ## Project Structure
 
 ```bash
-portfolio/
+pro1portfolio/
 ├── manage.py
 ├── db.sqlite3
-├── portfolio_app/
-│   ├── models.py        # Contact model
-│   ├── views.py         # Views for each page
-│   ├── urls.py          # App-specific routes
+├── home/
+│   ├── models.py       
+│   ├── views.py         
+│   ├── urls.py          
 │   ├── templates/
 │   │   ├── home.html
 │   │   ├── about.html
 │   │   ├── contact.html
 │   │   └── projects.html
+|   |   └── base.html
 │   └── static/
-│       └── images/
-│           └── profile.jpg
-├── portfolio_project/
+│     └── profile.jpg
+├── pro1portfolio/
 │   ├── settings.py
 │   └── urls.py
